@@ -10,6 +10,8 @@ class Deck:
 		possible_values = [ "A", "K", "Q", "J", "10", "9", "8", "7", "6", "5", "4", "3", "2" ]
 		# TODO : joker
 
+		# TODO : chien
+
 		# Build the Deck
 		for c in possible_colors:
 			for v in possible_values:
@@ -33,11 +35,7 @@ class Deck:
 		random.shuffle(self.cards)
 
 	def distribute(self, players):
-		n = 0
+		p = players[ 0 ]
 		for c in self.cards:
-			p = players[ n ]
-
 			p.addCardToHand(c)
-
-			n += 1
-			n = n % len(players)
+			p = p.nextPlayer()

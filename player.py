@@ -20,8 +20,8 @@ class Player:
 
 
 	def __str__(self):
-		return self.name
-		return self.name+"("+str(len(self.hand))+")"
+		return self.name.rjust(10, ' ')
+		#return self.name+"("+str(len(self.hand))+")"
 	
 	def __add__(self, other):
 		return str(self) + other

@@ -20,9 +20,9 @@ def gameOn(players):
 		p.resetHand()
 
 	# Create the Deck
-	deck = Deck(exclude_values=["2", "3", "4", "5"])
+	#deck = Deck(exclude_values=["2", "3", "4", "5"])
 	#deck = Deck(exclude_values=["2"])
-	#deck = Deck()
+	deck = Deck()
 	deck.shuffle()
 	deck.distribute(players)
 
@@ -107,7 +107,7 @@ def gameOn(players):
 players = []
 for name in [ "Sophie", "Christelle", "Vincent", "Jef" ]:
 	if name == "Jef":
-		player = Player(name, snap_mean=0)
+		player = Player(name, snap_mean=50)
 	else:
 		player = Player(name)
 	if len(players) > 0:
@@ -126,4 +126,4 @@ print()
 for p in players:
 	print(p, "has won", p.win_count, "times", "and snapped", p.snap_count, "times")
 
-print("Maximum number of turns", max(all_turns))
+print("Min/Avg/Max number of turns", min(all_turns),'/',int(sum(all_turns)/len(all_turns)),'/',max(all_turns))
