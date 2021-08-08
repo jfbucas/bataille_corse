@@ -9,12 +9,15 @@ class Player:
 		if snap_speed:
 			self.snap_speed = snap_speed
 		else:
-			self.snap_speed = random.randint(0,50)
+			if name == "Jef":
+				self.snap_speed = 0
+			else:
+				self.snap_speed = 100
+			#self.snap_speed = random.randint(0,50)
 
+		self.win_count = 0
 		self.snap_count = 0
-
 		self.hand = []
-
 		self.next_player = None
 
 
@@ -28,6 +31,9 @@ class Player:
 	def __radd__(self, other ):
 		return other + str(self)
 	
+	def wins(self):
+		self.win_count += 1
+	
 	def winsSnap(self):
 		self.snap_count += 1
 	
@@ -36,7 +42,8 @@ class Player:
 	
 	def getSnapTime(self, cardA=None, cardB=None):
 		# TODO : player can get confused with cards designs
-		return self.snap_speed + 40 - random.randint(0,40)
+		#return self.snap_speed + 40 - random.randint(0,40)
+		return random.randint(0,100)
 	
 	def hasMadeAMistake(self):
 		# TODO : player can get confused with cards designs and snap incorrectly
@@ -48,6 +55,9 @@ class Player:
 	
 	def addCardToHand(self, card):
 		self.hand.append( card )
+
+	def resetHand(self):
+		self.hand = []
 
 	def playCard(self):
 		card = None
