@@ -20,8 +20,9 @@ def gameOn(players):
 		p.resetHand()
 
 	# Create the Deck
-	#deck = Deck(exclude_values=["2", "3", "4", "5"])
-	deck = Deck()
+	deck = Deck(exclude_values=["2", "3", "4", "5"])
+	#deck = Deck(exclude_values=["2"])
+	#deck = Deck()
 	deck.shuffle()
 	deck.distribute(players)
 
@@ -94,6 +95,8 @@ def gameOn(players):
 	verbose(0, winner+" wins after "+str(turn)+" turns " )
 	for p in players:
 		verbose(2, p+" snapped "+str(p.getSnaps())+" times" )
+	
+	return turn
 
 
 
@@ -103,7 +106,10 @@ def gameOn(players):
 # LM2019 forever
 players = []
 for name in [ "Sophie", "Christelle", "Vincent", "Jef" ]:
-	player = Player(name)
+	if name == "Jef":
+		player = Player(name, snap_mean=0)
+	else:
+		player = Player(name)
 	if len(players) > 0:
 		player.setNextPlayer(players[-1])
 	players.append( player )
@@ -111,10 +117,13 @@ players[0].setNextPlayer(players[-1])
 
 
 # Run many times
+all_turns = []
 for i in range(0, 1000):
-	gameOn(players)
+	all_turns.append( gameOn(players) )
 
 # Show results
 print()
 for p in players:
-	print(p, "has won", p.win_count, "times")
+	print(p, "has won", p.win_count, "times", "and snapped", p.snap_count, "times")
+
+print("Maximum number of turns", max(all_turns))

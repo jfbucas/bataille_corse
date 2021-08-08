@@ -26,5 +26,5 @@ class Stack:
 	
 	def isSnapTime(self):
 		if len(self.cards) >= 2:
-			return self.cards[-1].value == self.cards[-2].value
+			return self.cards[-1].isSameValue( self.cards[-2] )
 		return False
