@@ -4,7 +4,7 @@ This is the best card game ever.
  - Quick to learn
  - For all ages
  - Hours of intense fun
- - People can leave of jump in any time
+ - People can leave or jump in any time
  - Flexible rules
 
 Description of the game on Wikipedia:
