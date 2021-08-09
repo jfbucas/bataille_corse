@@ -16,7 +16,7 @@ def verbose(level, message):
 
 
 # Play a game
-def gameOn(players):
+def gameOn(players, snap_chances):
 
 
 	# Setup the Game
@@ -25,11 +25,10 @@ def gameOn(players):
 	turn = 0
 	game_over = False
 
-	# Start player
+	# Pick the first player to start
 	player = players[ 0 ]
 	for i in range(random.randint(0, 100)):
 		player = player.nextPlayer()
-
 
 	# Let's go!
 	while not game_over:
@@ -45,8 +44,8 @@ def gameOn(players):
 
 			# Is it a pair?
 			if stack.isSnapTime():
-				snap_times = sorted([ [p, p.getSnapTime()] for p in players ], key=itemgetter(1))
-				player = snap_times[0][0]
+				#snap_times = sorted([ [p, p.getSnapTime()] for p in players ], key=itemgetter(1))
+				player = random.choice(snap_chances)
 				verbose( 3, player+" wins the snap" )
 				if player.hasLost():
 					verbose( 4, stack+" "+player+" is back in the game" )
@@ -96,7 +95,7 @@ def gameOn(players):
 # Test a scenario many times
 def runScenario( scenario ):
 
-	# Create the players
+	# Create the players and link them
 	players = []
 	for name in scenario.names:
 		if name in scenario.snap_means.keys():
@@ -107,6 +106,19 @@ def runScenario( scenario ):
 			player.setNextPlayer(players[-1])
 		players.append( player )
 	players[0].setNextPlayer(players[-1])
+	
+	# Percentage of snap time to be distributed among players
+	how_many_to_be_distributed = sum([ (p.snap_percent == None) for p in players ])
+	snap_chances = []
+	for p in players:
+		if p.snap_percent != None:
+			for i in range(p.snap_percent):
+				snap_chances.append( p )
+	leftover = (100 - len(snap_chances)) // how_many_to_be_distributed
+	for p in players:
+		if p.snap_percent == None:
+			for i in range(leftover):
+				snap_chances.append( p )
 
 
 	# Create the Deck
@@ -125,14 +137,14 @@ def runScenario( scenario ):
 		deck.distribute(players)
 
 		# Start the game
-		all_turns.append( gameOn(players) )
+		all_turns.append( gameOn(players, snap_chances) )
 
 	# Show results
-	print()
+	verbose(0, "")
 
 	total_snap_count = sum([ p.snap_count for p in players ])
 	for p in players:
-		verbose(0, p+" has won "+str(int(p.win_count*100/scenario.samples)).rjust(3,' ')+"% times and snapped "+ str(int(p.snap_count*100/total_snap_count)).rjust(3,' ')+"% times")
+		verbose(0, p+" has won "+str(int(p.win_count*100/scenario.samples)).rjust(3,' ')+"% times and was first to snap "+ str(int(p.snap_count*100/total_snap_count)).rjust(3,' ')+"% of the time")
 
 	verbose(0, "Min/Avg/Max number of turns "+ str(min(all_turns))+'/'+str(int(sum(all_turns)/len(all_turns)))+'/'+str(max(all_turns)))
 
@@ -144,27 +156,45 @@ def runScenario( scenario ):
 # LM2019 forever
 players_names = [ "Jef", "Christelle", "Sophie", "Vincent", "Laeticia", "Gildas" ]
 
-for samples in [ 1000 ]:
+for samples in [ 100000 ]:
 
 	for names in range(2, len(players_names)+1):
 
 		for excluding in [
+			[],
 			["2"],
 			["2", "3"],
 			["2", "3", "4"],
 			["2", "3", "4", "5"],
 			]:
 
-			for snap_mean in range(0, 60, 10):
+			for contracts in [
+				{ "A":4, "K":3, "Q":2, "J":1 },
+				{ "A":4, "K":3, "Q":2 },
+				{ "A":4, "K":3 },
+				{ "A":4 },
+				{ "K":3, "Q":2, "J":1 },
+				{ "Q":2, "J":1 },
+				{ "J":1 },
+				{ "Q":2 },
+				{ "K":2 },
+				]:
 
-				scenario = Scenario(
-					samples,
-					players_names[:names], 
-					{ "Jef":snap_mean },
-					{ "A":4, "K":3, "Q":2, "J":1 },
-					excluding,
-				)
 
-				runScenario( scenario )
+				for snap_mean in range(0, 110, 10):
+
+					scenario = Scenario(
+						samples,
+						players_names[:names], 
+						{ "Jef":snap_mean },
+						contracts,
+						excluding,
+					)
+
+					verbose(0, ("-"*120) + "\n"+scenario)
+
+					runScenario( scenario )
+
+					verbose(0, "")
 
 

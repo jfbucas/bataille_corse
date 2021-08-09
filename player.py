@@ -2,16 +2,11 @@ import random
 
 class Player:
 	
-	def __init__(self, name, snap_mean=None, snap_deviation=None):
+	def __init__(self, name, snap_percent=None):
 		
 		self.name  = name
 
-		self.snap_mean      = 50
-		self.snap_deviation = 15
-		if snap_mean != None:
-			self.snap_mean      = snap_mean
-		if snap_deviation != None:
-			self.snap_deviation = snap_deviation
+		self.snap_percent = snap_percent
 
 		self.win_count = 0
 		self.snap_count = 0
@@ -38,9 +33,8 @@ class Player:
 	def getSnaps(self):
 		return self.snap_count
 	
-	def getSnapTime(self, cardA=None, cardB=None):
-		# TODO : player can get confused with cards designs
-		return random.gauss(self.snap_mean, self.snap_deviation)
+	def getSnapTime(self):
+		return self.snap_percent
 	
 	def hasMadeAMistake(self):
 		# TODO : player can get confused with cards designs and snap incorrectly
