@@ -1,20 +1,16 @@
 class Card:
-	def __init__(self, color, value):
+
+	default_contracts = { "A":4, "K":3, "Q":2, "J":1 }
+
+	def __init__(self, color, value, contracts={}):
 		self.color = color
 		self.value = value
 		self.contract = None
 
-		if value == "A":
-			self.contract = 4
-
-		elif value == "K":
-			self.contract = 3
-
-		elif value == "Q":
-			self.contract = 2
-
-		elif value == "J":
-			self.contract = 1
+		if value in contracts:
+			self.contract = contracts[value]
+		elif value in self.default_contracts.keys():
+			self.contract = self.default_contracts[value]
 
 	def __str__(self):
 		return self.value

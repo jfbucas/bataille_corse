@@ -7,7 +7,7 @@ class Player:
 		self.name  = name
 
 		self.snap_mean      = 50
-		self.snap_deviation = 10
+		self.snap_deviation = 15
 		if snap_mean != None:
 			self.snap_mean      = snap_mean
 		if snap_deviation != None:

@@ -8,6 +8,7 @@ from deck import Deck
 from stack import Stack
 from contract import Contract
 from player import Player
+from scenario import Scenario
 
 def verbose(level, message):
 	if level <= 0:
@@ -16,15 +17,6 @@ def verbose(level, message):
 
 # Play a game
 def gameOn(players):
-	for p in players:
-		p.resetHand()
-
-	# Create the Deck
-	#deck = Deck(exclude_values=["2", "3", "4", "5"])
-	#deck = Deck(exclude_values=["2"])
-	deck = Deck()
-	deck.shuffle()
-	deck.distribute(players)
 
 
 	# Setup the Game
@@ -47,9 +39,9 @@ def gameOn(players):
 			# Play a card
 			card = player.playCard()
 			stack.addCard(card)
-			verbose( 1, stack+" "+player+" plays "+card )
+			verbose( 3, stack+" "+player+" plays "+card )
 			if player.hasLost():
-				verbose( 2, stack+" "+player+" is out of cards" )
+				verbose( 4, stack+" "+player+" is out of cards" )
 
 			# Is it a pair?
 			if stack.isSnapTime():
@@ -57,14 +49,14 @@ def gameOn(players):
 				player = snap_times[0][0]
 				verbose( 3, player+" wins the snap" )
 				if player.hasLost():
-					verbose( 2, stack+" "+player+" is back in the game" )
+					verbose( 4, stack+" "+player+" is back in the game" )
 				stack.winsCards(player)
 				player.winsSnap()
 
 			# New contract?
 			elif card.hasAContract():
 				contract.set(card.contract, player)
-				verbose( 4, player+" sets contract: "+contract )
+				verbose( 5, player+" sets contract: "+contract )
 				player = player.nextPlayer()
 
 			# Do we have a running contract?
@@ -72,7 +64,7 @@ def gameOn(players):
 				contract.decRemaining()
 				if contract.hasRunout():
 					player = contract.getPlayer()
-					verbose( 4, player+" wins contract" )
+					verbose( 5, player+" wins contract" )
 					stack.winsCards(player)
 					contract.reset()
 			# Next player
@@ -92,7 +84,7 @@ def gameOn(players):
 	winner = [ p for p in players if p.hasCards() ][ 0 ]
 	winner.wins()
 
-	verbose(0, winner+" wins after "+str(turn)+" turns " )
+	verbose(1, winner+" wins after "+str(turn)+" turns " )
 	for p in players:
 		verbose(2, p+" snapped "+str(p.getSnaps())+" times" )
 	
@@ -100,30 +92,81 @@ def gameOn(players):
 
 
 
+
+# Test a scenario many times
+def runScenario( scenario ):
+
+	# Create the players
+	players = []
+	for name in scenario.names:
+		if name in scenario.snap_means.keys():
+			player = Player(name, scenario.snap_means[name])
+		else:
+			player = Player(name)
+		if len(players) > 0:
+			player.setNextPlayer(players[-1])
+		players.append( player )
+	players[0].setNextPlayer(players[-1])
+
+
+	# Create the Deck
+	deck = Deck(scenario.exclude_cards_with_value, scenario.cards_contracts)
+
+	# Run many times
+	all_turns = []
+	for i in range(0, scenario.games):
+
+		# Empty players hands
+		for p in players:
+			p.resetHand()
+
+		# Shuffle the cards and distribute
+		deck.shuffle()
+		deck.distribute(players)
+
+		# Start the game
+		all_turns.append( gameOn(players) )
+
+	# Show results
+	print()
+
+	total_snap_count = sum([ p.snap_count for p in players ])
+	for p in players:
+		verbose(0, p+" has won "+str(int(p.win_count*100/scenario.games)).rjust(3,' ')+"% times and snapped "+ str(int(p.snap_count*100/total_snap_count)).rjust(3,' ')+"% times")
+
+	print("Min/Avg/Max number of turns", min(all_turns),'/',int(sum(all_turns)/len(all_turns)),'/',max(all_turns))
+
+
+
+
 # =========================
 
-# Create the players
+for games in [ 100 ]:
+	for names in [
+		[ "Christelle", "Jef" ],
+		[ "Sophie", "Christelle", "Jef" ],
+		[ "Sophie", "Christelle", "Vincent", "Jef" ],
+		[ "Laeticia", "Sophie", "Christelle", "Vincent", "Jef" ],
+		[ "Laeticia", "Sophie", "Christelle", "Gildas", "Vincent", "Jef" ],
+		]:
+		for snap_mean in range(0, 60, 10):
+			for excluding in [
+				["2"],
+				["2", "3"],
+				["2", "3", "4"],
+				["2", "3", "4", "5"],
+				]:
+
+				scenario = Scenario(
+					games,
+					names, 
+					{ "Jef":snap_mean },
+					{ "A":4, "K":3, "Q":2, "J":1 },
+					excluding,
+				)
+
+				runScenario( scenario )
+
+
+
 # LM2019 forever
-players = []
-for name in [ "Sophie", "Christelle", "Vincent", "Jef" ]:
-	if name == "Jef":
-		player = Player(name, snap_mean=50)
-	else:
-		player = Player(name)
-	if len(players) > 0:
-		player.setNextPlayer(players[-1])
-	players.append( player )
-players[0].setNextPlayer(players[-1])
-
-
-# Run many times
-all_turns = []
-for i in range(0, 1000):
-	all_turns.append( gameOn(players) )
-
-# Show results
-print()
-for p in players:
-	print(p, "has won", p.win_count, "times", "and snapped", p.snap_count, "times")
-
-print("Min/Avg/Max number of turns", min(all_turns),'/',int(sum(all_turns)/len(all_turns)),'/',max(all_turns))

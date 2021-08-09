@@ -3,7 +3,7 @@ import random
 from card import Card
 
 class Deck:
-	def __init__(self, exclude_values=None):
+	def __init__(self, exclude_values=None, contracts={}):
 		self.cards = []
 
 		possible_colors = [ "D", "S", "H", "C" ]
@@ -18,7 +18,7 @@ class Deck:
 				if exclude_values:
 					if v in exclude_values:
 						continue					
-				self.cards.append( Card(c, v) )
+				self.cards.append( Card(c, v, contracts) )
 	def __str__(self):
 		s = ""
 		for c in self.cards:
