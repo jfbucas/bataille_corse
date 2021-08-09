@@ -1,6 +1,6 @@
 class Scenario:
-	def __init__(self, games, names, means, contracts, exclude=[]):
-		self.games = games
+	def __init__(self, samples, names, means, contracts, exclude=[]):
+		self.samples = samples
 		self.names = names
 		self.snap_means = means
 		self.cards_contracts = contracts

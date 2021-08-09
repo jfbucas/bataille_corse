@@ -114,7 +114,7 @@ def runScenario( scenario ):
 
 	# Run many times
 	all_turns = []
-	for i in range(0, scenario.games):
+	for i in range(0, scenario.samples):
 
 		# Empty players hands
 		for p in players:
@@ -132,34 +132,34 @@ def runScenario( scenario ):
 
 	total_snap_count = sum([ p.snap_count for p in players ])
 	for p in players:
-		verbose(0, p+" has won "+str(int(p.win_count*100/scenario.games)).rjust(3,' ')+"% times and snapped "+ str(int(p.snap_count*100/total_snap_count)).rjust(3,' ')+"% times")
+		verbose(0, p+" has won "+str(int(p.win_count*100/scenario.samples)).rjust(3,' ')+"% times and snapped "+ str(int(p.snap_count*100/total_snap_count)).rjust(3,' ')+"% times")
 
-	print("Min/Avg/Max number of turns", min(all_turns),'/',int(sum(all_turns)/len(all_turns)),'/',max(all_turns))
+	verbose(0, "Min/Avg/Max number of turns "+ str(min(all_turns))+'/'+str(int(sum(all_turns)/len(all_turns)))+'/'+str(max(all_turns)))
 
 
 
 
 # =========================
 
-for games in [ 100 ]:
-	for names in [
-		[ "Christelle", "Jef" ],
-		[ "Sophie", "Christelle", "Jef" ],
-		[ "Sophie", "Christelle", "Vincent", "Jef" ],
-		[ "Laeticia", "Sophie", "Christelle", "Vincent", "Jef" ],
-		[ "Laeticia", "Sophie", "Christelle", "Gildas", "Vincent", "Jef" ],
-		]:
-		for snap_mean in range(0, 60, 10):
-			for excluding in [
-				["2"],
-				["2", "3"],
-				["2", "3", "4"],
-				["2", "3", "4", "5"],
-				]:
+# LM2019 forever
+players_names = [ "Jef", "Christelle", "Sophie", "Vincent", "Laeticia", "Gildas" ]
+
+for samples in [ 1000 ]:
+
+	for names in range(2, len(players_names)+1):
+
+		for excluding in [
+			["2"],
+			["2", "3"],
+			["2", "3", "4"],
+			["2", "3", "4", "5"],
+			]:
+
+			for snap_mean in range(0, 60, 10):
 
 				scenario = Scenario(
-					games,
-					names, 
+					samples,
+					players_names[:names], 
 					{ "Jef":snap_mean },
 					{ "A":4, "K":3, "Q":2, "J":1 },
 					excluding,
@@ -168,5 +168,3 @@ for games in [ 100 ]:
 				runScenario( scenario )
 
 
-
-# LM2019 forever
