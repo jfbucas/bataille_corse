@@ -18,6 +18,9 @@ class Player:
 		return self.name.rjust(10, ' ')
 		#return self.name+"("+str(len(self.hand))+")"
 	
+	def __repr__(self):
+		return self.__str__()
+	
 	def __add__(self, other):
 		return str(self) + other
 	
@@ -67,4 +70,12 @@ class Player:
 
 	def nextPlayer(self):
 		return self.next_player
+
+	# a little arrangement between friends
+	def exchangeCardsWithPlayer(self, values, player):
+		for c in player.hand:
+			if c.value in values:
+				player.hand.remove(c)
+				player.hand.append( self.hand.pop(0) )
+				self.hand.append(c)
 

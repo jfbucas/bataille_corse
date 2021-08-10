@@ -25,6 +25,9 @@ class Deck:
 			s+=c+" "
 		return s
 	
+	def __repr__(self):
+		return self.__str__()
+	
 	def __add__(self, other):
 		return str(self) + other
 	

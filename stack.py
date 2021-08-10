@@ -7,6 +7,9 @@ class Stack:
 	def __str__(self):
 		return str(len(self.cards))
 	
+	def __repr__(self):
+		return self.__str__()
+	
 	def __add__(self, other):
 		return str(self) + other
 	

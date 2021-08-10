@@ -1,0 +1,720 @@
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  50% times and was first to snap  50% of the time
+Christelle has won  49% times and was first to snap  49% of the time
+Min/Avg/Max number of turns 43/337/2092
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won   5% times and was first to snap   0% of the time
+Christelle has won  94% times and was first to snap 100% of the time
+Min/Avg/Max number of turns 42/192/884
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  18% times and was first to snap  24% of the time
+Christelle has won  81% times and was first to snap  75% of the time
+Min/Avg/Max number of turns 45/276/1618
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  25% times and was first to snap  33% of the time
+Christelle has won  75% times and was first to snap  66% of the time
+Min/Avg/Max number of turns 41/319/1885
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  47% times and was first to snap  49% of the time
+Christelle has won  52% times and was first to snap  50% of the time
+Min/Avg/Max number of turns 40/335/1641
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  74% times and was first to snap  66% of the time
+Christelle has won  26% times and was first to snap  33% of the time
+Min/Avg/Max number of turns 40/302/1472
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  82% times and was first to snap  74% of the time
+Christelle has won  17% times and was first to snap  25% of the time
+Min/Avg/Max number of turns 42/277/1801
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  96% times and was first to snap 100% of the time
+Christelle has won   3% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 42/197/1173
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  79% times and was first to snap  50% of the time
+Christelle has won  20% times and was first to snap  49% of the time
+Min/Avg/Max number of turns 43/271/2228
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  20% times and was first to snap   0% of the time
+Christelle has won  79% times and was first to snap 100% of the time
+Min/Avg/Max number of turns 44/289/1546
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  47% times and was first to snap  24% of the time
+Christelle has won  52% times and was first to snap  75% of the time
+Min/Avg/Max number of turns 43/323/1448
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  59% times and was first to snap  33% of the time
+Christelle has won  40% times and was first to snap  66% of the time
+Min/Avg/Max number of turns 39/314/1817
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  78% times and was first to snap  49% of the time
+Christelle has won  21% times and was first to snap  50% of the time
+Min/Avg/Max number of turns 41/268/2120
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  91% times and was first to snap  65% of the time
+Christelle has won   8% times and was first to snap  34% of the time
+Min/Avg/Max number of turns 43/217/1568
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  96% times and was first to snap  74% of the time
+Christelle has won   3% times and was first to snap  25% of the time
+Min/Avg/Max number of turns 40/182/1633
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  99% times and was first to snap 100% of the time
+Christelle has won   0% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 41/122/753
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  32% times and was first to snap  33% of the time
+Christelle has won  35% times and was first to snap  33% of the time
+    Sophie has won  32% times and was first to snap  33% of the time
+Min/Avg/Max number of turns 59/586/3584
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won   2% times and was first to snap   0% of the time
+Christelle has won  50% times and was first to snap  49% of the time
+    Sophie has won  46% times and was first to snap  50% of the time
+Min/Avg/Max number of turns 62/428/2037
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  21% times and was first to snap  25% of the time
+Christelle has won  41% times and was first to snap  37% of the time
+    Sophie has won  36% times and was first to snap  37% of the time
+Min/Avg/Max number of turns 58/561/3984
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  33% times and was first to snap  33% of the time
+Christelle has won  32% times and was first to snap  33% of the time
+    Sophie has won  33% times and was first to snap  33% of the time
+Min/Avg/Max number of turns 67/603/3414
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  61% times and was first to snap  50% of the time
+Christelle has won  19% times and was first to snap  24% of the time
+    Sophie has won  19% times and was first to snap  25% of the time
+Min/Avg/Max number of turns 53/509/2647
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  82% times and was first to snap  65% of the time
+Christelle has won   8% times and was first to snap  17% of the time
+    Sophie has won  10% times and was first to snap  17% of the time
+Min/Avg/Max number of turns 56/404/2372
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  88% times and was first to snap  75% of the time
+Christelle has won   5% times and was first to snap  12% of the time
+    Sophie has won   6% times and was first to snap  12% of the time
+Min/Avg/Max number of turns 57/351/1898
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  96% times and was first to snap 100% of the time
+Christelle has won   1% times and was first to snap   0% of the time
+    Sophie has won   2% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 50/247/933
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  61% times and was first to snap  33% of the time
+Christelle has won  17% times and was first to snap  33% of the time
+    Sophie has won  21% times and was first to snap  33% of the time
+Min/Avg/Max number of turns 50/517/3128
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  15% times and was first to snap   0% of the time
+Christelle has won  42% times and was first to snap  49% of the time
+    Sophie has won  42% times and was first to snap  50% of the time
+Min/Avg/Max number of turns 50/529/2928
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  47% times and was first to snap  25% of the time
+Christelle has won  24% times and was first to snap  37% of the time
+    Sophie has won  27% times and was first to snap  37% of the time
+Min/Avg/Max number of turns 47/517/3057
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  63% times and was first to snap  33% of the time
+Christelle has won  16% times and was first to snap  33% of the time
+    Sophie has won  19% times and was first to snap  33% of the time
+Min/Avg/Max number of turns 51/490/3122
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  82% times and was first to snap  50% of the time
+Christelle has won   7% times and was first to snap  24% of the time
+    Sophie has won   9% times and was first to snap  24% of the time
+Min/Avg/Max number of turns 53/390/2760
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  93% times and was first to snap  65% of the time
+Christelle has won   3% times and was first to snap  17% of the time
+    Sophie has won   3% times and was first to snap  16% of the time
+Min/Avg/Max number of turns 52/282/2007
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  97% times and was first to snap  76% of the time
+Christelle has won   0% times and was first to snap  11% of the time
+    Sophie has won   1% times and was first to snap  11% of the time
+Min/Avg/Max number of turns 51/228/1415
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  99% times and was first to snap 100% of the time
+Christelle has won   0% times and was first to snap   0% of the time
+    Sophie has won   0% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 52/162/862
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  23% times and was first to snap  24% of the time
+Christelle has won  25% times and was first to snap  25% of the time
+    Sophie has won  24% times and was first to snap  25% of the time
+   Vincent has won  26% times and was first to snap  25% of the time
+Min/Avg/Max number of turns 67/813/5378
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won   1% times and was first to snap   0% of the time
+Christelle has won  33% times and was first to snap  32% of the time
+    Sophie has won  34% times and was first to snap  33% of the time
+   Vincent has won  31% times and was first to snap  33% of the time
+Min/Avg/Max number of turns 60/636/3626
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  24% times and was first to snap  25% of the time
+Christelle has won  23% times and was first to snap  25% of the time
+    Sophie has won  27% times and was first to snap  24% of the time
+   Vincent has won  25% times and was first to snap  24% of the time
+Min/Avg/Max number of turns 74/773/4332
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  37% times and was first to snap  33% of the time
+Christelle has won  21% times and was first to snap  22% of the time
+    Sophie has won  19% times and was first to snap  22% of the time
+   Vincent has won  22% times and was first to snap  22% of the time
+Min/Avg/Max number of turns 76/761/4853
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  69% times and was first to snap  51% of the time
+Christelle has won   9% times and was first to snap  15% of the time
+    Sophie has won   8% times and was first to snap  16% of the time
+   Vincent has won  11% times and was first to snap  16% of the time
+Min/Avg/Max number of turns 62/584/2934
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  84% times and was first to snap  65% of the time
+Christelle has won   5% times and was first to snap  11% of the time
+    Sophie has won   5% times and was first to snap  11% of the time
+   Vincent has won   4% times and was first to snap  11% of the time
+Min/Avg/Max number of turns 59/470/2447
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  90% times and was first to snap  75% of the time
+Christelle has won   3% times and was first to snap   7% of the time
+    Sophie has won   3% times and was first to snap   8% of the time
+   Vincent has won   3% times and was first to snap   8% of the time
+Min/Avg/Max number of turns 54/388/2614
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  96% times and was first to snap 100% of the time
+Christelle has won   1% times and was first to snap   0% of the time
+    Sophie has won   1% times and was first to snap   0% of the time
+   Vincent has won   1% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 60/274/1084
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  49% times and was first to snap  24% of the time
+Christelle has won  13% times and was first to snap  24% of the time
+    Sophie has won  18% times and was first to snap  25% of the time
+   Vincent has won  19% times and was first to snap  25% of the time
+Min/Avg/Max number of turns 54/680/5094
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  14% times and was first to snap   0% of the time
+Christelle has won  25% times and was first to snap  32% of the time
+    Sophie has won  29% times and was first to snap  33% of the time
+   Vincent has won  30% times and was first to snap  33% of the time
+Min/Avg/Max number of turns 84/697/3946
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  51% times and was first to snap  24% of the time
+Christelle has won  13% times and was first to snap  24% of the time
+    Sophie has won  17% times and was first to snap  24% of the time
+   Vincent has won  17% times and was first to snap  25% of the time
+Min/Avg/Max number of turns 62/682/4122
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  62% times and was first to snap  33% of the time
+Christelle has won   8% times and was first to snap  22% of the time
+    Sophie has won  13% times and was first to snap  22% of the time
+   Vincent has won  15% times and was first to snap  22% of the time
+Min/Avg/Max number of turns 60/622/4335
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  84% times and was first to snap  51% of the time
+Christelle has won   2% times and was first to snap  16% of the time
+    Sophie has won   5% times and was first to snap  16% of the time
+   Vincent has won   6% times and was first to snap  16% of the time
+Min/Avg/Max number of turns 56/424/3726
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  93% times and was first to snap  66% of the time
+Christelle has won   1% times and was first to snap  10% of the time
+    Sophie has won   1% times and was first to snap  11% of the time
+   Vincent has won   3% times and was first to snap  11% of the time
+Min/Avg/Max number of turns 59/323/1980
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  96% times and was first to snap  75% of the time
+Christelle has won   0% times and was first to snap   8% of the time
+    Sophie has won   1% times and was first to snap   7% of the time
+   Vincent has won   2% times and was first to snap   8% of the time
+Min/Avg/Max number of turns 56/261/1555
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  99% times and was first to snap 100% of the time
+Christelle has won   0% times and was first to snap   0% of the time
+    Sophie has won   0% times and was first to snap   0% of the time
+   Vincent has won   0% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 55/180/978
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  21% times and was first to snap  19% of the time
+Christelle has won  20% times and was first to snap  19% of the time
+    Sophie has won  21% times and was first to snap  20% of the time
+   Vincent has won  18% times and was first to snap  19% of the time
+  Laetitia has won  19% times and was first to snap  19% of the time
+Min/Avg/Max number of turns 72/1004/6757
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won   2% times and was first to snap   0% of the time
+Christelle has won  27% times and was first to snap  24% of the time
+    Sophie has won  23% times and was first to snap  24% of the time
+   Vincent has won  23% times and was first to snap  25% of the time
+  Laetitia has won  23% times and was first to snap  24% of the time
+Min/Avg/Max number of turns 94/833/4467
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  29% times and was first to snap  25% of the time
+Christelle has won  16% times and was first to snap  18% of the time
+    Sophie has won  17% times and was first to snap  18% of the time
+   Vincent has won  19% times and was first to snap  18% of the time
+  Laetitia has won  16% times and was first to snap  18% of the time
+Min/Avg/Max number of turns 73/939/9299
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  47% times and was first to snap  33% of the time
+Christelle has won  12% times and was first to snap  16% of the time
+    Sophie has won  12% times and was first to snap  16% of the time
+   Vincent has won  13% times and was first to snap  16% of the time
+  Laetitia has won  13% times and was first to snap  16% of the time
+Min/Avg/Max number of turns 65/877/5986
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  77% times and was first to snap  51% of the time
+Christelle has won   4% times and was first to snap  11% of the time
+    Sophie has won   6% times and was first to snap  12% of the time
+   Vincent has won   5% times and was first to snap  12% of the time
+  Laetitia has won   5% times and was first to snap  12% of the time
+Min/Avg/Max number of turns 74/645/3171
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  86% times and was first to snap  67% of the time
+Christelle has won   3% times and was first to snap   8% of the time
+    Sophie has won   3% times and was first to snap   8% of the time
+   Vincent has won   2% times and was first to snap   8% of the time
+  Laetitia has won   3% times and was first to snap   8% of the time
+Min/Avg/Max number of turns 84/475/2220
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  92% times and was first to snap  74% of the time
+Christelle has won   1% times and was first to snap   6% of the time
+    Sophie has won   2% times and was first to snap   6% of the time
+   Vincent has won   1% times and was first to snap   6% of the time
+  Laetitia has won   2% times and was first to snap   6% of the time
+Min/Avg/Max number of turns 80/403/1666
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  95% times and was first to snap 100% of the time
+Christelle has won   1% times and was first to snap   0% of the time
+    Sophie has won   0% times and was first to snap   0% of the time
+   Vincent has won   1% times and was first to snap   0% of the time
+  Laetitia has won   1% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 59/285/1107
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  41% times and was first to snap  20% of the time
+Christelle has won  12% times and was first to snap  19% of the time
+    Sophie has won  13% times and was first to snap  20% of the time
+   Vincent has won  15% times and was first to snap  20% of the time
+  Laetitia has won  16% times and was first to snap  19% of the time
+Min/Avg/Max number of turns 59/839/5051
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  13% times and was first to snap   0% of the time
+Christelle has won  21% times and was first to snap  24% of the time
+    Sophie has won  20% times and was first to snap  24% of the time
+   Vincent has won  22% times and was first to snap  25% of the time
+  Laetitia has won  21% times and was first to snap  25% of the time
+Min/Avg/Max number of turns 74/911/5210
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  53% times and was first to snap  25% of the time
+Christelle has won  10% times and was first to snap  18% of the time
+    Sophie has won  12% times and was first to snap  18% of the time
+   Vincent has won  12% times and was first to snap  18% of the time
+  Laetitia has won  11% times and was first to snap  18% of the time
+Min/Avg/Max number of turns 60/808/5258
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  68% times and was first to snap  34% of the time
+Christelle has won   7% times and was first to snap  16% of the time
+    Sophie has won   7% times and was first to snap  16% of the time
+   Vincent has won   7% times and was first to snap  16% of the time
+  Laetitia has won   8% times and was first to snap  16% of the time
+Min/Avg/Max number of turns 65/703/5066
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  86% times and was first to snap  51% of the time
+Christelle has won   2% times and was first to snap  12% of the time
+    Sophie has won   2% times and was first to snap  11% of the time
+   Vincent has won   4% times and was first to snap  12% of the time
+  Laetitia has won   4% times and was first to snap  12% of the time
+Min/Avg/Max number of turns 66/473/3031
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  93% times and was first to snap  67% of the time
+Christelle has won   1% times and was first to snap   8% of the time
+    Sophie has won   0% times and was first to snap   8% of the time
+   Vincent has won   1% times and was first to snap   7% of the time
+  Laetitia has won   2% times and was first to snap   7% of the time
+Min/Avg/Max number of turns 56/326/1928
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  96% times and was first to snap  75% of the time
+Christelle has won   0% times and was first to snap   6% of the time
+    Sophie has won   0% times and was first to snap   6% of the time
+   Vincent has won   1% times and was first to snap   6% of the time
+  Laetitia has won   1% times and was first to snap   6% of the time
+Min/Avg/Max number of turns 57/274/1851
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  99% times and was first to snap 100% of the time
+Christelle has won   0% times and was first to snap   0% of the time
+    Sophie has won   0% times and was first to snap   0% of the time
+   Vincent has won   0% times and was first to snap   0% of the time
+  Laetitia has won   0% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 59/188/874
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  17% times and was first to snap  16% of the time
+Christelle has won  16% times and was first to snap  16% of the time
+    Sophie has won  16% times and was first to snap  16% of the time
+   Vincent has won  14% times and was first to snap  16% of the time
+  Laetitia has won  17% times and was first to snap  16% of the time
+    Gildas has won  17% times and was first to snap  16% of the time
+Min/Avg/Max number of turns 108/1127/6409
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won   1% times and was first to snap   0% of the time
+Christelle has won  19% times and was first to snap  20% of the time
+    Sophie has won  18% times and was first to snap  19% of the time
+   Vincent has won  20% times and was first to snap  20% of the time
+  Laetitia has won  17% times and was first to snap  19% of the time
+    Gildas has won  21% times and was first to snap  20% of the time
+Min/Avg/Max number of turns 88/997/5903
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  31% times and was first to snap  24% of the time
+Christelle has won  13% times and was first to snap  15% of the time
+    Sophie has won  12% times and was first to snap  15% of the time
+   Vincent has won  13% times and was first to snap  14% of the time
+  Laetitia has won  13% times and was first to snap  15% of the time
+    Gildas has won  16% times and was first to snap  15% of the time
+Min/Avg/Max number of turns 114/1021/5460
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  47% times and was first to snap  33% of the time
+Christelle has won   9% times and was first to snap  13% of the time
+    Sophie has won   9% times and was first to snap  13% of the time
+   Vincent has won  10% times and was first to snap  13% of the time
+  Laetitia has won  10% times and was first to snap  13% of the time
+    Gildas has won  12% times and was first to snap  13% of the time
+Min/Avg/Max number of turns 72/956/4487
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  74% times and was first to snap  49% of the time
+Christelle has won   4% times and was first to snap  10% of the time
+    Sophie has won   5% times and was first to snap  10% of the time
+   Vincent has won   5% times and was first to snap   9% of the time
+  Laetitia has won   5% times and was first to snap   9% of the time
+    Gildas has won   5% times and was first to snap  10% of the time
+Min/Avg/Max number of turns 87/728/4075
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  89% times and was first to snap  68% of the time
+Christelle has won   1% times and was first to snap   6% of the time
+    Sophie has won   1% times and was first to snap   6% of the time
+   Vincent has won   2% times and was first to snap   6% of the time
+  Laetitia has won   1% times and was first to snap   6% of the time
+    Gildas has won   2% times and was first to snap   6% of the time
+Min/Avg/Max number of turns 81/478/2551
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  90% times and was first to snap  75% of the time
+Christelle has won   1% times and was first to snap   5% of the time
+    Sophie has won   1% times and was first to snap   4% of the time
+   Vincent has won   2% times and was first to snap   4% of the time
+  Laetitia has won   1% times and was first to snap   4% of the time
+    Gildas has won   3% times and was first to snap   5% of the time
+Min/Avg/Max number of turns 64/423/2184
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: []
+
+       Jef has won  96% times and was first to snap 100% of the time
+Christelle has won   0% times and was first to snap   0% of the time
+    Sophie has won   0% times and was first to snap   0% of the time
+   Vincent has won   0% times and was first to snap   0% of the time
+  Laetitia has won   0% times and was first to snap   0% of the time
+    Gildas has won   0% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 65/293/1280
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': None} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  36% times and was first to snap  16% of the time
+Christelle has won  12% times and was first to snap  16% of the time
+    Sophie has won  12% times and was first to snap  16% of the time
+   Vincent has won  12% times and was first to snap  16% of the time
+  Laetitia has won  12% times and was first to snap  16% of the time
+    Gildas has won  14% times and was first to snap  16% of the time
+Min/Avg/Max number of turns 69/1019/6513
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 0} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  15% times and was first to snap   0% of the time
+Christelle has won  15% times and was first to snap  19% of the time
+    Sophie has won  16% times and was first to snap  19% of the time
+   Vincent has won  17% times and was first to snap  20% of the time
+  Laetitia has won  17% times and was first to snap  20% of the time
+    Gildas has won  18% times and was first to snap  20% of the time
+Min/Avg/Max number of turns 75/1030/5736
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 25} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  50% times and was first to snap  24% of the time
+Christelle has won   9% times and was first to snap  15% of the time
+    Sophie has won   8% times and was first to snap  14% of the time
+   Vincent has won   9% times and was first to snap  15% of the time
+  Laetitia has won  11% times and was first to snap  15% of the time
+    Gildas has won  10% times and was first to snap  14% of the time
+Min/Avg/Max number of turns 66/927/5821
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 33} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  68% times and was first to snap  34% of the time
+Christelle has won   4% times and was first to snap  13% of the time
+    Sophie has won   5% times and was first to snap  13% of the time
+   Vincent has won   7% times and was first to snap  13% of the time
+  Laetitia has won   6% times and was first to snap  13% of the time
+    Gildas has won   7% times and was first to snap  13% of the time
+Min/Avg/Max number of turns 67/730/6647
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 50} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  87% times and was first to snap  49% of the time
+Christelle has won   2% times and was first to snap  10% of the time
+    Sophie has won   1% times and was first to snap  10% of the time
+   Vincent has won   2% times and was first to snap  10% of the time
+  Laetitia has won   2% times and was first to snap   9% of the time
+    Gildas has won   3% times and was first to snap   9% of the time
+Min/Avg/Max number of turns 59/486/3397
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 66} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  94% times and was first to snap  68% of the time
+Christelle has won   0% times and was first to snap   6% of the time
+    Sophie has won   0% times and was first to snap   6% of the time
+   Vincent has won   1% times and was first to snap   5% of the time
+  Laetitia has won   0% times and was first to snap   6% of the time
+    Gildas has won   2% times and was first to snap   6% of the time
+Min/Avg/Max number of turns 59/339/2304
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 75} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  97% times and was first to snap  74% of the time
+Christelle has won   0% times and was first to snap   5% of the time
+    Sophie has won   0% times and was first to snap   5% of the time
+   Vincent has won   0% times and was first to snap   5% of the time
+  Laetitia has won   0% times and was first to snap   5% of the time
+    Gildas has won   0% times and was first to snap   5% of the time
+Min/Avg/Max number of turns 52/285/1624
+
+------------------------------------------------------------------------------------------------------------------------
+Players: ['Jef', 'Christelle', 'Sophie', 'Vincent', 'Laetitia', 'Gildas'] | Win % of Snaps: {'Jef': 100} | Contracts: {'A': 4, 'K': 3, 'Q': 2, 'J': 1} | Excluded: [] | Cheat Jacks! 
+
+       Jef has won  98% times and was first to snap 100% of the time
+Christelle has won   0% times and was first to snap   0% of the time
+    Sophie has won   0% times and was first to snap   0% of the time
+   Vincent has won   0% times and was first to snap   0% of the time
+  Laetitia has won   0% times and was first to snap   0% of the time
+    Gildas has won   0% times and was first to snap   0% of the time
+Min/Avg/Max number of turns 58/204/812
+

@@ -143,6 +143,11 @@ def runScenario( scenario ):
 		deck.shuffle()
 		deck.distribute(players)
 
+		# Get all the Jacks into first player's hand
+		if scenario.cheat_jacks:
+			for p in players[1:]:
+				players[0].exchangeCardsWithPlayer(['J'], p)
+
 		# Start the game
 		all_turns.append( gameOn(players, snap_chances) )
 
@@ -166,18 +171,22 @@ players_names = [ "Jef", "Christelle", "Sophie", "Vincent", "Laetitia", "Gildas"
 
 excluding_cards = [
 			[],
-			["2"],
-			["2", "3"],
-			["2", "3", "4"],
-			["2", "3", "4", "5"],
+			#["2"],
+			#["2", "3"],
+			#["2", "3", "4"],
+			#["2", "3", "4", "5"],
 		]
 
 possible_contracts = [
 			{ "A":4, "K":3, "Q":2, "J":1 },
-			{ "J":1 },
-			{}
+			#{ "J":1 },
+			#{}
 		]
 
+
+#
+# Explore various scenarios
+#
 
 for samples in [ 1000 ]:
 
@@ -185,22 +194,25 @@ for samples in [ 1000 ]:
 
 		for excluding in excluding_cards:
 
-			for contracts in possible_contracts:
+			for cheat_jacks in [ False, True ]:
 
-				for snap_mean in [ None ] + list(range(0, 110, 10)):
+				for contracts in possible_contracts:
 
-					scenario = Scenario(
-						samples,
-						players_names[:names], 
-						{ "Jef":snap_mean },
-						contracts,
-						excluding,
-					)
+					for snap_mean in [ None, 0, 25, 33, 50, 66, 75, 100 ]:
 
-					verbose(0, ("-"*120) + "\n"+scenario)
+						scenario = Scenario(
+							samples,
+							players_names[:names], 
+							{ "Jef":snap_mean },
+							contracts,
+							excluding,
+							cheat_jacks
+						)
 
-					runScenario( scenario )
+						verbose(0, ("-"*120) + "\n"+scenario)
 
-					verbose(0, "")
+						runScenario( scenario )
+
+						verbose(0, "")
 
 
