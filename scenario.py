@@ -7,7 +7,7 @@ class Scenario:
 		self.exclude_cards_with_value = exclude
 	
 	def __str__(self):
-		return "Joueurs: " + str(self.names) + " | Snap Means: " + str(self.snap_means) + " | Contracts: " + str(self.cards_contracts) + " | Excluded: " + str(self.exclude_cards_with_value)
+		return "Players: " + str(self.names) + " | Win % of Snaps: " + str(self.snap_means) + " | Contracts: " + str(self.cards_contracts) + " | Excluded: " + str(self.exclude_cards_with_value)
 
 	def __add__(self, other):
 		return str(self) + other

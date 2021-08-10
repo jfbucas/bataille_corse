@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import random
+import os
 from operator import itemgetter
 
 from card import Card
@@ -10,9 +11,15 @@ from contract import Contract
 from player import Player
 from scenario import Scenario
 
+# Output verbosity
+VERBOSE = 0
+if "VERBOSE" in os.environ:
+	VERBOSE = int(os.environ["VERBOSE"])
+
 def verbose(level, message):
-	if level <= 0:
+	if level <= VERBOSE:
 		print( message )
+
 
 
 # Play a game
@@ -154,34 +161,33 @@ def runScenario( scenario ):
 # =========================
 
 # LM2019 forever
-players_names = [ "Jef", "Christelle", "Sophie", "Vincent", "Laeticia", "Gildas" ]
+players_names = [ "Jef", "Christelle", "Sophie", "Vincent", "Laetitia", "Gildas" ]
+		
 
-for samples in [ 100000 ]:
-
-	for names in range(2, len(players_names)+1):
-
-		for excluding in [
+excluding_cards = [
 			[],
 			["2"],
 			["2", "3"],
 			["2", "3", "4"],
 			["2", "3", "4", "5"],
-			]:
+		]
 
-			for contracts in [
-				{ "A":4, "K":3, "Q":2, "J":1 },
-				{ "A":4, "K":3, "Q":2 },
-				{ "A":4, "K":3 },
-				{ "A":4 },
-				{ "K":3, "Q":2, "J":1 },
-				{ "Q":2, "J":1 },
-				{ "J":1 },
-				{ "Q":2 },
-				{ "K":2 },
-				]:
+possible_contracts = [
+			{ "A":4, "K":3, "Q":2, "J":1 },
+			{ "J":1 },
+			{}
+		]
 
 
-				for snap_mean in range(0, 110, 10):
+for samples in [ 1000 ]:
+
+	for names in range(2, len(players_names)+1):
+
+		for excluding in excluding_cards:
+
+			for contracts in possible_contracts:
+
+				for snap_mean in [ None ] + list(range(0, 110, 10)):
 
 					scenario = Scenario(
 						samples,
