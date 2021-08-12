@@ -1,5 +1,5 @@
 class Scenario:
-	def __init__(self, samples, names, means, contracts, exclude=[], cheat_jacks=False):
+	def __init__(self, samples, names, means, contracts={}, exclude=[], cheat_jacks=False):
 		self.samples = samples
 		self.names = names
 		self.snap_means = means

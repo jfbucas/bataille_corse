@@ -25,6 +25,8 @@ def verbose(level, message):
 # Play a game
 def gameOn(players, snap_chances):
 
+	# For quality purposes, this game is going to be recorded
+	recording = []
 
 	# Setup the Game
 	stack = Stack()
@@ -45,24 +47,34 @@ def gameOn(players, snap_chances):
 			# Play a card
 			card = player.playCard()
 			stack.addCard(card)
-			verbose( 3, stack+" "+player+" plays "+card )
+			msg = stack+" "+player+" plays "+card
+			recording.append( msg )
+			verbose( 3, msg )
 			if player.hasLost():
-				verbose( 4, stack+" "+player+" is out of cards" )
+				msg = stack+" "+player+" is out of cards"
+				recording.append( msg )
+				verbose( 4, msg )
 
 			# Is it a pair?
 			if stack.isSnapTime():
 				#snap_times = sorted([ [p, p.getSnapTime()] for p in players ], key=itemgetter(1))
 				player = random.choice(snap_chances)
-				verbose( 3, player+" wins the snap" )
+				msg = player+" wins the snap"
+				recording.append( msg )
+				verbose( 3, msg )
 				if player.hasLost():
-					verbose( 4, stack+" "+player+" is back in the game" )
+					msg = stack+" "+player+" is back in the game"
+					recording.append( msg )
+					verbose( 4, msg )
 				stack.winsCards(player)
 				player.winsSnap()
 
 			# New contract?
 			elif card.hasAContract():
 				contract.set(card.contract, player)
-				verbose( 5, player+" sets contract: "+contract )
+				msg = player+" sets contract: "+contract
+				recording.append( msg )
+				verbose( 5, msg )
 				player = player.nextPlayer()
 
 			# Do we have a running contract?
@@ -70,7 +82,9 @@ def gameOn(players, snap_chances):
 				contract.decRemaining()
 				if contract.hasRunout():
 					player = contract.getPlayer()
-					verbose( 5, player+" wins contract" )
+					msg = player+" wins contract"
+					recording.append( msg )
+					verbose( 5, msg )
 					stack.winsCards(player)
 					contract.reset()
 			# Next player
@@ -90,11 +104,15 @@ def gameOn(players, snap_chances):
 	winner = [ p for p in players if p.hasCards() ][ 0 ]
 	winner.wins()
 
-	verbose(1, winner+" wins after "+str(turn)+" turns " )
+	msg = winner+" wins after "+str(turn)+" turns"
+	recording.append( msg )
+	verbose(1, msg )
 	for p in players:
-		verbose(2, p+" snapped "+str(p.getSnaps())+" times" )
+		msg = p+" snapped "+str(p.getSnaps())+" times"
+		recording.append( msg )
+		verbose(2, msg )
 	
-	return turn
+	return [ turn, players, snap_chances, recording ]
 
 
 
@@ -157,8 +175,17 @@ def runScenario( scenario ):
 	total_snap_count = sum([ p.snap_count for p in players ])
 	for p in players:
 		verbose(0, p+" has won "+str(int(p.win_count*100/scenario.samples)).rjust(3,' ')+"% times and was first to snap "+ str(int(p.snap_count*100/total_snap_count)).rjust(3,' ')+"% of the time")
+	
+	longest_game = [ 0 ]
+	all_turns_count = []
+	for t in all_turns:
+		all_turns_count.append( t[0] )
+		if t[0] > longest_game[0]:
+			longest_game = t
 
-	verbose(0, "Min/Avg/Max number of turns "+ str(min(all_turns))+'/'+str(int(sum(all_turns)/len(all_turns)))+'/'+str(max(all_turns)))
+	verbose(0, "Min/Avg/Max number of turns "+ str(min(all_turns_count))+'/'+str(int(sum(all_turns_count)/len(all_turns_count)))+'/'+str(max(all_turns_count)))
+
+	return longest_game
 
 
 
@@ -168,6 +195,33 @@ def runScenario( scenario ):
 # LM2019 forever
 players_names = [ "Jef", "Christelle", "Sophie", "Vincent", "Laetitia", "Gildas" ]
 		
+
+
+#
+# Find longest possible game
+#
+if "LONGEST" in os.environ:
+	print( "Find longest game..." )
+
+	scenario = Scenario(
+		100000,
+		players_names[:4], 
+		{ "Jef":None },
+	)
+
+	while True:
+		longest = runScenario( scenario )
+		print( longest )
+
+	exit()
+
+
+
+
+#
+# Explore various scenarios
+#
+
 
 excluding_cards = [
 			[],
@@ -183,10 +237,6 @@ possible_contracts = [
 			#{}
 		]
 
-
-#
-# Explore various scenarios
-#
 
 for samples in [ 1000 ]:
 
