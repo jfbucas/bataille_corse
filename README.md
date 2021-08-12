@@ -96,7 +96,7 @@ Example with 6 players:
 - Vincent    has won  14% times and was first to snap  16% of the time
 - Laetitia   has won  17% times and was first to snap  16% of the time
 - Gildas     has won  17% times and was first to snap  16% of the time
-- Min/Avg/Max number of turns 108/1127/6409
+- Min/Avg/Max number of turns ***108/1127/6409***
 
 
 If one player snaps faster than the other ones, the duration of the game is reduced
@@ -108,4 +108,4 @@ Example with 6 players:
 - Vincent    has won   2% times and was first to snap   6% of the time
 - Laetitia   has won   1% times and was first to snap   6% of the time
 - Gildas     has won   2% times and was first to snap   6% of the time
-- Min/Avg/Max number of turns 81/478/2551
+- Min/Avg/Max number of turns ***81/478/2551***
