@@ -68,6 +68,7 @@ def gameOn(players, snap_chances):
 					verbose( 4, msg )
 				stack.winsCards(player)
 				player.winsSnap()
+				contract.reset()
 
 			# New contract?
 			elif card.hasAContract():
